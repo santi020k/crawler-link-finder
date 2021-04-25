@@ -18,12 +18,16 @@ npm run start
 
 ```bash
 npm run build
-npm run dev
+cd lib
+node index.js
+
+if need help you can use
+node index.js -h
 ```
 
 ## Commands
 
-* "dev": Run de CLI once, you can pass aditional tags, like -h, for know options
+* "dev": Run de CLI once, you can't pass aditional tags
 * "create": Its for npm library, but need more work, i thing so
 * "build": Complie the ts to js
 * "refresh": "reinstall dependencies"
